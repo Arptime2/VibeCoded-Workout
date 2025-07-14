@@ -28,32 +28,35 @@ document.addEventListener('DOMContentLoaded', () => {
             exercises = data.exercises;
         });
 
+    const navButtons = [setupBtn, progressBtn, allExercisesBtn];
+
+    function setActiveView(activeBtn) {
+        navButtons.forEach(btn => btn.classList.remove('active'));
+        activeBtn.classList.add('active');
+
+        [setupView, progressView, allExercisesView, workoutView, workoutPreviewView].forEach(view => view.classList.add('hidden'));
+
+        if (activeBtn === setupBtn) setupView.classList.remove('hidden');
+        if (activeBtn === progressBtn) progressView.classList.remove('hidden');
+        if (activeBtn === allExercisesBtn) allExercisesView.classList.remove('hidden');
+    }
+
     // Navigation
     setupBtn.addEventListener('click', () => {
-        setupView.classList.remove('hidden');
-        workoutView.classList.add('hidden');
-        progressView.classList.add('hidden');
-        allExercisesView.classList.add('hidden');
-        workoutPreviewView.classList.add('hidden');
+        setActiveView(setupBtn);
     });
 
     progressBtn.addEventListener('click', () => {
-        setupView.classList.add('hidden');
-        workoutView.classList.add('hidden');
-        progressView.classList.remove('hidden');
-        allExercisesView.classList.add('hidden');
-        workoutPreviewView.classList.add('hidden');
+        setActiveView(progressBtn);
         displayProgress();
     });
 
     allExercisesBtn.addEventListener('click', () => {
-        setupView.classList.add('hidden');
-        workoutView.classList.add('hidden');
-        progressView.classList.add('hidden');
-        allExercisesView.classList.remove('hidden');
-        workoutPreviewView.classList.add('hidden');
+        setActiveView(allExercisesBtn);
         displayAllExercises();
     });
+
+    setActiveView(setupBtn);
 
     // Workout form submission
     workoutForm.addEventListener('submit', (e) => {
@@ -80,35 +83,28 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     function generateWorkout(duration, difficulty, bodyParts) {
+        const warmUpDuration = 5 * 60; // 5 minutes
+        const coolDownDuration = 5 * 60; // 5 minutes
+        const mainWorkoutDuration = (duration * 60) - warmUpDuration - coolDownDuration;
         const exerciseDuration = 45; // seconds per exercise
-        const totalExercises = Math.floor((duration * 60) / (exerciseDuration + parseInt(document.getElementById('rest-duration').value)));
+        const rest = parseInt(document.getElementById('rest-duration').value);
 
+        const warmUpExercises = getExercisesByBodyPart(['full body'], 'easy', Math.floor(warmUpDuration / (exerciseDuration + rest)));
+        const coolDownExercises = getExercisesByBodyPart(['full body'], 'easy', Math.floor(coolDownDuration / (exerciseDuration + rest)));
+        const mainWorkoutExercises = getExercisesByBodyPart(bodyParts, difficulty, Math.floor(mainWorkoutDuration / (exerciseDuration + rest)));
+
+        return [...warmUpExercises, ...mainWorkoutExercises, ...coolDownExercises];
+    }
+
+    function getExercisesByBodyPart(bodyParts, difficulty, count) {
         let filteredExercises = exercises.filter(ex => {
             const difficultyMatch = ex.difficulty === difficulty;
             const bodyPartMatch = bodyParts.includes('full body') || ex.bodyPart.some(bp => bodyParts.includes(bp));
             return difficultyMatch && bodyPartMatch;
         });
 
-        // Add variations
-        const exercisesWithVariations = [];
-        filteredExercises.forEach(ex => {
-            exercisesWithVariations.push(ex);
-            if (ex.variations && ex.variations.length > 0) {
-                ex.variations.forEach(variationName => {
-                    const variation = {
-                        ...ex, // Copy original exercise properties
-                        name: variationName,
-                        isVariation: true
-                    };
-                    exercisesWithVariations.push(variation);
-                });
-            }
-        });
-
-        // Simple shuffle and slice
-        const shuffled = exercisesWithVariations.sort(() => 0.5 - Math.random());
-        return shuffled.slice(0, totalExercises);
-    }
+        const shuffled = filteredExercises.sort(() => 0.5 - Math.random());
+        return shuffled.slice(0, count);
 
     function startWorkout() {
         setupView.classList.add('hidden');
@@ -123,6 +119,16 @@ document.addEventListener('DOMContentLoaded', () => {
             endWorkout();
             return;
         }
+
+        const phaseTitle = document.createElement('h2');
+        if (currentExerciseIndex < 5) {
+            phaseTitle.textContent = 'Warm-up';
+        } else if (currentExerciseIndex >= currentWorkout.length - 5) {
+            phaseTitle.textContent = 'Cool-down';
+        } else {
+            phaseTitle.textContent = 'Main Workout';
+        }
+        document.getElementById('workout-view').prepend(phaseTitle);
 
         const exercise = currentWorkout[currentExerciseIndex];
         document.getElementById('exercise-name').textContent = exercise.name;
@@ -174,8 +180,22 @@ document.addEventListener('DOMContentLoaded', () => {
         setupView.classList.add('hidden');
         workoutPreviewView.classList.remove('hidden');
         const previewList = document.getElementById('workout-preview-list');
-        previewList.innerHTML = '';
-        currentWorkout.forEach(exercise => {
+        previewList.innerHTML = '<h3>Warm-up</h3>';
+        currentWorkout.slice(0, 5).forEach(exercise => {
+            const li = document.createElement('li');
+            li.textContent = exercise.name;
+            previewList.appendChild(li);
+        });
+
+        previewList.innerHTML += '<h3>Main Workout</h3>';
+        currentWorkout.slice(5, currentWorkout.length - 5).forEach(exercise => {
+            const li = document.createElement('li');
+            li.textContent = exercise.name;
+            previewList.appendChild(li);
+        });
+
+        previewList.innerHTML += '<h3>Cool-down</h3>';
+        currentWorkout.slice(currentWorkout.length - 5).forEach(exercise => {
             const li = document.createElement('li');
             li.textContent = exercise.name;
             previewList.appendChild(li);
@@ -195,6 +215,12 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
             exerciseList.appendChild(item);
         });
+    }
+
+    function formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
     }
 
     function endWorkout() {
@@ -243,7 +269,7 @@ document.addEventListener('DOMContentLoaded', () => {
         bodyPartChart.innerHTML = '<h3>Body Parts Trained</h3>';
         const bodyPartData = getBodyPartData(history);
         const bodyPartSvg = createPieChart(bodyPartData);
-        bodyPartChart.appendChild(bodyPartChart);
+        bodyPartChart.appendChild(bodyPartSvg);
 
     }
 

@@ -9,46 +9,61 @@ body {
     background-color: #f0f2f5;
     color: #333;
     line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
 }
 
 #app {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    overflow: hidden;
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
+    background-color: #007aff;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
 h1 {
     font-size: 2rem;
-    color: #007aff;
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #007aff;
+    padding-bottom: 10px;
 }
 
 nav button {
     font-size: 1rem;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border: none;
-    background-color: #007aff;
+    background: none;
     color: white;
-    border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s;
+    border-radius: 8px;
 }
 
-nav button:hover {
-    background-color: #0056b3;
+nav button:hover, nav button.active {
+    background-color: rgba(255,255,255,0.2);
+}
+
+main {
+    padding: 20px;
 }
 
 main section {
-    background: white;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 0;
 }
 
 .hidden {
@@ -89,10 +104,11 @@ button[type="submit"]:hover {
 }
 
 #timer {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     text-align: center;
     margin-bottom: 20px;
+    color: #007aff;
 }
 
 #exercise-info img {
