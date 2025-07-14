@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // Load exercises from JSON
-    fetch('exercises.json')
+    fetch('exercises.json?v=' + new Date().getTime())
         .then(response => response.json())
         .then(data => {
             exercises = data.exercises;
