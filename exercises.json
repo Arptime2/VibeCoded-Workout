@@ -17,10 +17,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "3_4_Sit-Up/0.jpg",
-      "3_4_Sit-Up/1.jpg"
-    ],
     "id": "3_4_Sit-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/3_4_Sit-Up/0.jpg"
   },
@@ -43,10 +39,6 @@
       "Repeat for 10-20 repetitions, and then switch to the other leg."
     ],
     "category": "stretching",
-    "images": [
-      "90_90_Hamstring/0.jpg",
-      "90_90_Hamstring/1.jpg"
-    ],
     "id": "90_90_Hamstring",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/90_90_Hamstring/0.jpg"
   },
@@ -69,10 +61,6 @@
       "Continue alternating in this manner until all of the recommended repetitions for each side have been completed."
     ],
     "category": "strength",
-    "images": [
-      "Air_Bike/0.jpg",
-      "Air_Bike/1.jpg"
-    ],
     "id": "Air_Bike",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Air_Bike/0.jpg"
   },
@@ -94,10 +82,6 @@
       "Focus on extending your hips, thrusting them towards the floor. Hold for 10-20 seconds and then switch sides."
     ],
     "category": "stretching",
-    "images": [
-      "All_Fours_Quad_Stretch/0.jpg",
-      "All_Fours_Quad_Stretch/1.jpg"
-    ],
     "id": "All_Fours_Quad_Stretch",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/All_Fours_Quad_Stretch/0.jpg"
   },
@@ -119,10 +103,6 @@
       "Continue alternating sides in this manner until all prescribed repetitions are done."
     ],
     "category": "strength",
-    "images": [
-      "Alternate_Heel_Touchers/0.jpg",
-      "Alternate_Heel_Touchers/1.jpg"
-    ],
     "id": "Alternate_Heel_Touchers",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Alternate_Heel_Touchers/0.jpg"
   },
@@ -146,10 +126,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Bench_Dips/0.jpg",
-      "Bench_Dips/1.jpg"
-    ],
     "id": "Bench_Dips",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bench_Dips/0.jpg"
   },
@@ -175,10 +151,6 @@
       "Turn around and face the opposite direction, then jump back over the bench."
     ],
     "category": "plyometrics",
-    "images": [
-      "Bench_Jump/0.jpg",
-      "Bench_Jump/1.jpg"
-    ],
     "id": "Bench_Jump",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bench_Jump/0.jpg"
   },
@@ -200,10 +172,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Bent-Knee_Hip_Raise/0.jpg",
-      "Bent-Knee_Hip_Raise/1.jpg"
-    ],
     "id": "Bent-Knee_Hip_Raise",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bent-Knee_Hip_Raise/0.jpg"
   },
@@ -227,10 +195,6 @@
       "Repeat."
     ],
     "category": "strength",
-    "images": [
-      "Body-Up/0.jpg",
-      "Body-Up/1.jpg"
-    ],
     "id": "Body-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body-Up/0.jpg"
   },
@@ -252,10 +216,6 @@
       "Progress from bodyweight by adding chains over your shoulders."
     ],
     "category": "strength",
-    "images": [
-      "Body_Tricep_Press/0.jpg",
-      "Body_Tricep_Press/1.jpg"
-    ],
     "id": "Body_Tricep_Press",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Body_Tricep_Press/0.jpg"
   },
@@ -278,10 +238,6 @@
       "Continue down to full depth if you are able,and quickly reverse the motion until you return to the starting position. As you squat, keep your head and chest up and push your knees out."
     ],
     "category": "strength",
-    "images": [
-      "Bodyweight_Squat/0.jpg",
-      "Bodyweight_Squat/1.jpg"
-    ],
     "id": "Bodyweight_Squat",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bodyweight_Squat/0.jpg"
   },
@@ -301,10 +257,6 @@
       "After a brief pause, return to the starting position."
     ],
     "category": "strength",
-    "images": [
-      "Bottoms_Up/0.jpg",
-      "Bottoms_Up/1.jpg"
-    ],
     "id": "Bottoms_Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Bottoms_Up/0.jpg"
   },
@@ -326,10 +278,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Butt-Ups/0.jpg",
-      "Butt-Ups/1.jpg"
-    ],
     "id": "Butt-Ups",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt-Ups/0.jpg"
   },
@@ -351,10 +299,6 @@
       "Slowly go back to the starting position as you breathe in."
     ],
     "category": "strength",
-    "images": [
-      "Butt_Lift_Bridge/0.jpg",
-      "Butt_Lift_Bridge/1.jpg"
-    ],
     "id": "Butt_Lift_Bridge",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Butt_Lift_Bridge/0.jpg"
   },
@@ -380,10 +324,6 @@
       "Repeat this motion for the prescribed amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Chin-Up/0.jpg",
-      "Chin-Up/1.jpg"
-    ],
     "id": "Chin-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Chin-Up/0.jpg"
   },
@@ -409,10 +349,6 @@
       "Return to the starting position and repeat the exercise, working all the way around until you are back where you started."
     ],
     "category": "strength",
-    "images": [
-      "Clock_Push-Up/0.jpg",
-      "Clock_Push-Up/1.jpg"
-    ],
     "id": "Clock_Push-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Clock_Push-Up/0.jpg"
   },
@@ -437,10 +373,6 @@
       "After a pause at the contracted position, repeat the movement for the prescribed amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Close-Grip_Push-Up_off_of_a_Dumbbell/0.jpg",
-      "Close-Grip_Push-Up_off_of_a_Dumbbell/1.jpg"
-    ],
     "id": "Close-Grip_Push-Up_off_of_a_Dumbbell",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Close-Grip_Push-Up_off_of_a_Dumbbell/0.jpg"
   },
@@ -460,10 +392,6 @@
       "After a brief pause, return to the starting position."
     ],
     "category": "strength",
-    "images": [
-      "Cocoons/0.jpg",
-      "Cocoons/1.jpg"
-    ],
     "id": "Cocoons",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cocoons/0.jpg"
   },
@@ -485,10 +413,6 @@
       "Continue alternating in this manner until all prescribed repetitions are done."
     ],
     "category": "strength",
-    "images": [
-      "Cross-Body_Crunch/0.jpg",
-      "Cross-Body_Crunch/1.jpg"
-    ],
     "id": "Cross-Body_Crunch",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Cross-Body_Crunch/0.jpg"
   },
@@ -510,10 +434,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Crunch_-_Hands_Overhead/0.jpg",
-      "Crunch_-_Hands_Overhead/1.jpg"
-    ],
     "id": "Crunch_-_Hands_Overhead",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crunch_-_Hands_Overhead/0.jpg"
   },
@@ -537,10 +457,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Crunch_-_Legs_On_Exercise_Ball/0.jpg",
-      "Crunch_-_Legs_On_Exercise_Ball/1.jpg"
-    ],
     "id": "Crunch_-_Legs_On_Exercise_Ball",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crunch_-_Legs_On_Exercise_Ball/0.jpg"
   },
@@ -563,10 +479,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Crunches/0.jpg",
-      "Crunches/1.jpg"
-    ],
     "id": "Crunches",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Crunches/0.jpg"
   },
@@ -590,10 +502,6 @@
       "Repeat on the opposite side, alternating until the set is complete."
     ],
     "category": "strength",
-    "images": [
-      "Dead_Bug/0.jpg",
-      "Dead_Bug/1.jpg"
-    ],
     "id": "Dead_Bug",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dead_Bug/0.jpg"
   },
@@ -616,10 +524,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Decline_Crunch/0.jpg",
-      "Decline_Crunch/1.jpg"
-    ],
     "id": "Decline_Crunch",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Crunch/0.jpg"
   },
@@ -642,10 +546,6 @@
       "After completing one set on the right for the recommended amount of repetitions, switch to your left side. Tip: Focus on really twisting your torso and feeling the contraction when you are in the up position."
     ],
     "category": "strength",
-    "images": [
-      "Decline_Oblique_Crunch/0.jpg",
-      "Decline_Oblique_Crunch/1.jpg"
-    ],
     "id": "Decline_Oblique_Crunch",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Oblique_Crunch/0.jpg"
   },
@@ -667,10 +567,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Decline_Reverse_Crunch/0.jpg",
-      "Decline_Reverse_Crunch/1.jpg"
-    ],
     "id": "Decline_Reverse_Crunch",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Decline_Reverse_Crunch/0.jpg"
   },
@@ -694,10 +590,6 @@
       "Repeat the movement for the prescribed amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Dips_-_Triceps_Version/0.jpg",
-      "Dips_-_Triceps_Version/1.jpg"
-    ],
     "id": "Dips_-_Triceps_Version",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Dips_-_Triceps_Version/0.jpg"
   },
@@ -724,10 +616,6 @@
       "Finish the motion by landing with the knees only partially bent, using your legs to absorb the impact."
     ],
     "category": "plyometrics",
-    "images": [
-      "Double_Leg_Butt_Kick/0.jpg",
-      "Double_Leg_Butt_Kick/1.jpg"
-    ],
     "id": "Double_Leg_Butt_Kick",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Double_Leg_Butt_Kick/0.jpg"
   },
@@ -747,10 +635,6 @@
       "Return to the starting position and repeat the movement for the desired number of repetitions before switching sides."
     ],
     "category": "strength",
-    "images": [
-      "Elbow_to_Knee/0.jpg",
-      "Elbow_to_Knee/1.jpg"
-    ],
     "id": "Elbow_to_Knee",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Elbow_to_Knee/0.jpg"
   },
@@ -776,10 +660,6 @@
       "Perform fast skips by maintaining close contact with the ground and reduce air time, moving as quickly as possible."
     ],
     "category": "plyometrics",
-    "images": [
-      "Fast_Skipping/0.jpg",
-      "Fast_Skipping/1.jpg"
-    ],
     "id": "Fast_Skipping",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Fast_Skipping/0.jpg"
   },
@@ -801,10 +681,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Flat_Bench_Leg_Pull-In/0.jpg",
-      "Flat_Bench_Leg_Pull-In/1.jpg"
-    ],
     "id": "Flat_Bench_Leg_Pull-In",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Leg_Pull-In/0.jpg"
   },
@@ -825,10 +701,6 @@
       "Now, as you inhale, slowly lower your legs back down to the starting position."
     ],
     "category": "strength",
-    "images": [
-      "Flat_Bench_Lying_Leg_Raise/0.jpg",
-      "Flat_Bench_Lying_Leg_Raise/1.jpg"
-    ],
     "id": "Flat_Bench_Lying_Leg_Raise",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flat_Bench_Lying_Leg_Raise/0.jpg"
   },
@@ -852,10 +724,6 @@
       "Continue alternating in this manner (as though you are doing a flutter kick in water) until you have done the recommended amount of repetitions for each leg. Make sure that you keep a controlled movement at all times. Tip: You will breathe normally as you perform this movement."
     ],
     "category": "strength",
-    "images": [
-      "Flutter_Kicks/0.jpg",
-      "Flutter_Kicks/1.jpg"
-    ],
     "id": "Flutter_Kicks",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Flutter_Kicks/0.jpg"
   },
@@ -882,10 +750,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Freehand_Jump_Squat/0.jpg",
-      "Freehand_Jump_Squat/1.jpg"
-    ],
     "id": "Freehand_Jump_Squat",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Freehand_Jump_Squat/0.jpg"
   },
@@ -909,10 +773,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Frog_Sit-Ups/0.jpg",
-      "Frog_Sit-Ups/1.jpg"
-    ],
     "id": "Frog_Sit-Ups",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Frog_Sit-Ups/0.jpg"
   },
@@ -931,10 +791,6 @@
       "Swing your leg forward, keeping the leg straight. Continue with a downward swing, bringing the leg as far back as your flexibility allows. Repeat 5-10 times, and then switch legs."
     ],
     "category": "stretching",
-    "images": [
-      "Front_Leg_Raises/0.jpg",
-      "Front_Leg_Raises/1.jpg"
-    ],
     "id": "Front_Leg_Raises",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Front_Leg_Raises/0.jpg"
   },
@@ -957,10 +813,6 @@
       "Continue to alternate legs until all of the recommended repetitions have been performed."
     ],
     "category": "strength",
-    "images": [
-      "Glute_Kickback/0.jpg",
-      "Glute_Kickback/1.jpg"
-    ],
     "id": "Glute_Kickback",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Glute_Kickback/0.jpg"
   },
@@ -985,10 +837,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Gorilla_Chin_Crunch/0.jpg",
-      "Gorilla_Chin_Crunch/1.jpg"
-    ],
     "id": "Gorilla_Chin_Crunch",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Gorilla_Chin_Crunch/0.jpg"
   },
@@ -1008,10 +856,6 @@
       "Return to the starting position and immediately repeat the movement, continuing for 10-20 repetitions."
     ],
     "category": "stretching",
-    "images": [
-      "Groiners/0.jpg",
-      "Groiners/1.jpg"
-    ],
     "id": "Groiners",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Groiners/0.jpg"
   },
@@ -1035,10 +879,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Handstand_Push-Ups/0.jpg",
-      "Handstand_Push-Ups/1.jpg"
-    ],
     "id": "Handstand_Push-Ups",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Handstand_Push-Ups/0.jpg"
   },
@@ -1059,10 +899,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Hanging_Leg_Raise/0.jpg",
-      "Hanging_Leg_Raise/1.jpg"
-    ],
     "id": "Hanging_Leg_Raise",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Leg_Raise/0.jpg"
   },
@@ -1084,10 +920,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Hanging_Pike/0.jpg",
-      "Hanging_Pike/1.jpg"
-    ],
     "id": "Hanging_Pike",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hanging_Pike/0.jpg"
   },
@@ -1109,10 +941,6 @@
       "Perform this slowly for a number of repetitions, and repeat on the other side."
     ],
     "category": "stretching",
-    "images": [
-      "Hip_Circles_prone/0.jpg",
-      "Hip_Circles_prone/1.jpg"
-    ],
     "id": "Hip_Circles_prone",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hip_Circles_prone/0.jpg"
   },
@@ -1137,10 +965,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Hyperextensions_With_No_Hyperextension_Bench/0.jpg",
-      "Hyperextensions_With_No_Hyperextension_Bench/1.jpg"
-    ],
     "id": "Hyperextensions_With_No_Hyperextension_Bench",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Hyperextensions_With_No_Hyperextension_Bench/0.jpg"
   },
@@ -1162,10 +986,6 @@
       "Continue walking until your feet are by hour hands, keeping your legs straight as you do so."
     ],
     "category": "stretching",
-    "images": [
-      "Inchworm/0.jpg",
-      "Inchworm/1.jpg"
-    ],
     "id": "Inchworm",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Inchworm/0.jpg"
   },
@@ -1188,10 +1008,6 @@
       "Push body up until arms are extended. Repeat."
     ],
     "category": "strength",
-    "images": [
-      "Incline_Push-Up/0.jpg",
-      "Incline_Push-Up/1.jpg"
-    ],
     "id": "Incline_Push-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up/0.jpg"
   },
@@ -1216,10 +1032,6 @@
       "Return to the starting position by extending the elbows, pressing yourself back up."
     ],
     "category": "strength",
-    "images": [
-      "Incline_Push-Up_Close-Grip/0.jpg",
-      "Incline_Push-Up_Close-Grip/1.jpg"
-    ],
     "id": "Incline_Push-Up_Close-Grip",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up_Close-Grip/0.jpg"
   },
@@ -1245,10 +1057,6 @@
       "Return to the starting position by extending the elbows, pressing yourself back up."
     ],
     "category": "strength",
-    "images": [
-      "Incline_Push-Up_Medium/0.jpg",
-      "Incline_Push-Up_Medium/1.jpg"
-    ],
     "id": "Incline_Push-Up_Medium",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up_Medium/0.jpg"
   },
@@ -1274,10 +1082,6 @@
       "Return to the starting position by extending the elbows, pressing yourself back up."
     ],
     "category": "strength",
-    "images": [
-      "Incline_Push-Up_Reverse_Grip/0.jpg",
-      "Incline_Push-Up_Reverse_Grip/1.jpg"
-    ],
     "id": "Incline_Push-Up_Reverse_Grip",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up_Reverse_Grip/0.jpg"
   },
@@ -1303,10 +1107,6 @@
       "Return to the starting position by extending the elbows, pressing yourself back up."
     ],
     "category": "strength",
-    "images": [
-      "Incline_Push-Up_Wide/0.jpg",
-      "Incline_Push-Up_Wide/1.jpg"
-    ],
     "id": "Incline_Push-Up_Wide",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Incline_Push-Up_Wide/0.jpg"
   },
@@ -1331,10 +1131,6 @@
       "Rest for the recommended amount of time and repeat."
     ],
     "category": "plyometrics",
-    "images": [
-      "Isometric_Chest_Squeezes/0.jpg",
-      "Isometric_Chest_Squeezes/1.jpg"
-    ],
     "id": "Isometric_Chest_Squeezes",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Chest_Squeezes/0.jpg"
   },
@@ -1356,10 +1152,6 @@
       "Rest for the recommended amount of time and repeat with your hands placed on the back side of your head."
     ],
     "category": "strength",
-    "images": [
-      "Isometric_Neck_Exercise_-_Front_And_Back/0.jpg",
-      "Isometric_Neck_Exercise_-_Front_And_Back/1.jpg"
-    ],
     "id": "Isometric_Neck_Exercise_-_Front_And_Back",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Neck_Exercise_-_Front_And_Back/0.jpg"
   },
@@ -1381,10 +1173,6 @@
       "Rest for the recommended amount of time and repeat with your right hand placed on the right side of your head."
     ],
     "category": "strength",
-    "images": [
-      "Isometric_Neck_Exercise_-_Sides/0.jpg",
-      "Isometric_Neck_Exercise_-_Sides/1.jpg"
-    ],
     "id": "Isometric_Neck_Exercise_-_Sides",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Neck_Exercise_-_Sides/0.jpg"
   },
@@ -1409,10 +1197,6 @@
       "Repeat for the desired number of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Isometric_Wipers/0.jpg",
-      "Isometric_Wipers/1.jpg"
-    ],
     "id": "Isometric_Wipers",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Isometric_Wipers/0.jpg"
   },
@@ -1433,10 +1217,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Jackknife_Sit-Up/0.jpg",
-      "Jackknife_Sit-Up/1.jpg"
-    ],
     "id": "Jackknife_Sit-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Jackknife_Sit-Up/0.jpg"
   },
@@ -1457,10 +1237,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Janda_Sit-Up/0.jpg",
-      "Janda_Sit-Up/1.jpg"
-    ],
     "id": "Janda_Sit-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Janda_Sit-Up/0.jpg"
   },
@@ -1483,10 +1259,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "stretching",
-    "images": [
-      "Knee_Circles/0.jpg",
-      "Knee_Circles/1.jpg"
-    ],
     "id": "Knee_Circles",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Knee_Circles/0.jpg"
   },
@@ -1512,10 +1284,6 @@
       "Jump as high as you can, raising your knees up, and then ensure a good land be re-extending your legs, absorbing impact through be allowing the knees to rebend."
     ],
     "category": "plyometrics",
-    "images": [
-      "Knee_Tuck_Jump/0.jpg",
-      "Knee_Tuck_Jump/1.jpg"
-    ],
     "id": "Knee_Tuck_Jump",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Knee_Tuck_Jump/0.jpg"
   },
@@ -1543,10 +1311,6 @@
       "Continue back and forth for several repetitions."
     ],
     "category": "plyometrics",
-    "images": [
-      "Lateral_Bound/0.jpg",
-      "Lateral_Bound/1.jpg"
-    ],
     "id": "Lateral_Bound",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lateral_Bound/0.jpg"
   },
@@ -1570,10 +1334,6 @@
       "Repeat the movement with the opposite leg."
     ],
     "category": "strength",
-    "images": [
-      "Leg_Lift/0.jpg",
-      "Leg_Lift/1.jpg"
-    ],
     "id": "Leg_Lift",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Lift/0.jpg"
   },
@@ -1594,10 +1354,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Leg_Pull-In/0.jpg",
-      "Leg_Pull-In/1.jpg"
-    ],
     "id": "Leg_Pull-In",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Leg_Pull-In/0.jpg"
   },
@@ -1616,10 +1372,6 @@
       "Using your lower back muscles, extend your spine lifting your chest off of the ground. Do not use your arms to push yourself up. Keep your head up during the movement. Repeat for 10-20 repetitions."
     ],
     "category": "stretching",
-    "images": [
-      "Lower_Back_Curl/0.jpg",
-      "Lower_Back_Curl/1.jpg"
-    ],
     "id": "Lower_Back_Curl",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lower_Back_Curl/0.jpg"
   },
@@ -1640,10 +1392,6 @@
       "After 10-20 seconds, relax the leg as your partner gently presses the knee towards the floor. Repeat with the other side."
     ],
     "category": "stretching",
-    "images": [
-      "Lying_Crossover/0.jpg",
-      "Lying_Crossover/1.jpg"
-    ],
     "id": "Lying_Crossover",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Crossover/0.jpg"
   },
@@ -1666,10 +1414,6 @@
       "After 10-20 seconds, completely relax as your partner gently pushes the ankle and knee towards your chest. Be sure to inform your helper when the stretch is adequate to prevent injury or overstretching."
     ],
     "category": "stretching",
-    "images": [
-      "Lying_Glute/0.jpg",
-      "Lying_Glute/1.jpg"
-    ],
     "id": "Lying_Glute",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Glute/0.jpg"
   },
@@ -1690,10 +1434,6 @@
       "After 10-20 seconds, switch sides."
     ],
     "category": "stretching",
-    "images": [
-      "Lying_Prone_Quadriceps/0.jpg",
-      "Lying_Prone_Quadriceps/1.jpg"
-    ],
     "id": "Lying_Prone_Quadriceps",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Lying_Prone_Quadriceps/0.jpg"
   },
@@ -1718,10 +1458,6 @@
       "If you are unable to complete a rep, use a band, a partner, or push off of a box to aid in completing a repetition."
     ],
     "category": "strength",
-    "images": [
-      "Natural_Glute_Ham_Raise/0.jpg",
-      "Natural_Glute_Ham_Raise/1.jpg"
-    ],
     "id": "Natural_Glute_Ham_Raise",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Natural_Glute_Ham_Raise/0.jpg"
   },
@@ -1745,10 +1481,6 @@
       "Continue alternating in this manner until all of the recommended repetitions for each side have been completed."
     ],
     "category": "strength",
-    "images": [
-      "Oblique_Crunches/0.jpg",
-      "Oblique_Crunches/1.jpg"
-    ],
     "id": "Oblique_Crunches",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Oblique_Crunches/0.jpg"
   },
@@ -1770,10 +1502,6 @@
       "Remember to breathe in during the eccentric (lowering) part of the exercise and to breathe out during the concentric (elevation) part of the exercise."
     ],
     "category": "strength",
-    "images": [
-      "Oblique_Crunches_-_On_The_Floor/0.jpg",
-      "Oblique_Crunches_-_On_The_Floor/1.jpg"
-    ],
     "id": "Oblique_Crunches_-_On_The_Floor",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Oblique_Crunches_-_On_The_Floor/0.jpg"
   },
@@ -1795,10 +1523,6 @@
       "After 10-20 seconds, relax the arm and allow your partner to further stretch the tricep by applying gentle pressure to the wrist. Hold for 10-20 seconds, and then switch sides."
     ],
     "category": "stretching",
-    "images": [
-      "Overhead_Triceps/0.jpg",
-      "Overhead_Triceps/1.jpg"
-    ],
     "id": "Overhead_Triceps",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Overhead_Triceps/0.jpg"
   },
@@ -1817,10 +1541,6 @@
       "Keep your body straight at all times, and hold this position as long as possible. To increase difficulty, an arm or leg can be raised."
     ],
     "category": "strength",
-    "images": [
-      "Plank/0.jpg",
-      "Plank/1.jpg"
-    ],
     "id": "Plank",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plank/0.jpg"
   },
@@ -1846,10 +1566,6 @@
       "For added difficulty, add claps into the movement while you are air borne."
     ],
     "category": "plyometrics",
-    "images": [
-      "Plyo_Push-up/0.jpg",
-      "Plyo_Push-up/1.jpg"
-    ],
     "id": "Plyo_Push-up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Plyo_Push-up/0.jpg"
   },
@@ -1874,10 +1590,6 @@
       "Repeat this motion for the prescribed amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Pullups/0.jpg",
-      "Pullups/1.jpg"
-    ],
     "id": "Pullups",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pullups/0.jpg"
   },
@@ -1902,10 +1614,6 @@
       "After pausing at the contracted position, repeat the movement for the prescribed amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Push-Up_Wide/0.jpg",
-      "Push-Up_Wide/1.jpg"
-    ],
     "id": "Push-Up_Wide",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Up_Wide/0.jpg"
   },
@@ -1929,10 +1637,6 @@
       "After a second pause at the contracted position, repeat the movement for the prescribed amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Push-Ups_-_Close_Triceps_Position/0.jpg",
-      "Push-Ups_-_Close_Triceps_Position/1.jpg"
-    ],
     "id": "Push-Ups_-_Close_Triceps_Position",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Ups_-_Close_Triceps_Position/0.jpg"
   },
@@ -1957,10 +1661,6 @@
       "After a second pause at the contracted position, repeat the movement for the prescribed amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Push-Ups_With_Feet_Elevated/0.jpg",
-      "Push-Ups_With_Feet_Elevated/1.jpg"
-    ],
     "id": "Push-Ups_With_Feet_Elevated",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push-Ups_With_Feet_Elevated/0.jpg"
   },
@@ -1986,10 +1686,6 @@
       "Repeat the series, alternating each side, for 10 or more reps."
     ],
     "category": "strength",
-    "images": [
-      "Push_Up_to_Side_Plank/0.jpg",
-      "Push_Up_to_Side_Plank/1.jpg"
-    ],
     "id": "Push_Up_to_Side_Plank",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Push_Up_to_Side_Plank/0.jpg"
   },
@@ -2013,10 +1709,6 @@
       "After a brief pause at the top contracted position, you can begin to lower yourself downward again for as many repetitions as needed."
     ],
     "category": "strength",
-    "images": [
-      "Pushups/0.jpg",
-      "Pushups/1.jpg"
-    ],
     "id": "Pushups",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pushups/0.jpg"
   },
@@ -2040,10 +1732,6 @@
       "After a second pause at the contracted position, repeat the movement for the prescribed amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Pushups_Close_and_Wide_Hand_Positions/0.jpg",
-      "Pushups_Close_and_Wide_Hand_Positions/1.jpg"
-    ],
     "id": "Pushups_Close_and_Wide_Hand_Positions",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Pushups_Close_and_Wide_Hand_Positions/0.jpg"
   },
@@ -2062,10 +1750,6 @@
       "Extend one leg up and behind you. The knee and hip should both extend. Repeat for 5-10 repetitions, and then switch sides."
     ],
     "category": "stretching",
-    "images": [
-      "Rear_Leg_Raises/0.jpg",
-      "Rear_Leg_Raises/1.jpg"
-    ],
     "id": "Rear_Leg_Raises",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rear_Leg_Raises/0.jpg"
   },
@@ -2087,10 +1771,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Reverse_Crunch/0.jpg",
-      "Reverse_Crunch/1.jpg"
-    ],
     "id": "Reverse_Crunch",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Reverse_Crunch/0.jpg"
   },
@@ -2113,10 +1793,6 @@
       "Fully extend your entire body, reaching overhead as far as possible. As you land, absorb your impact through the legs."
     ],
     "category": "plyometrics",
-    "images": [
-      "Rocket_Jump/0.jpg",
-      "Rocket_Jump/1.jpg"
-    ],
     "id": "Rocket_Jump",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Rocket_Jump/0.jpg"
   },
@@ -2140,10 +1816,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Russian_Twist/0.jpg",
-      "Russian_Twist/1.jpg"
-    ],
     "id": "Russian_Twist",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Russian_Twist/0.jpg"
   },
@@ -2165,10 +1837,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "stretching",
-    "images": [
-      "Scissor_Kick/0.jpg",
-      "Scissor_Kick/1.jpg"
-    ],
     "id": "Scissor_Kick",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Scissor_Kick/0.jpg"
   },
@@ -2192,10 +1860,6 @@
       "As you land, absorb the impact through the legs by adopting the lunge position, and repeat."
     ],
     "category": "plyometrics",
-    "images": [
-      "Scissors_Jump/0.jpg",
-      "Scissors_Jump/1.jpg"
-    ],
     "id": "Scissors_Jump",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Scissors_Jump/0.jpg"
   },
@@ -2218,10 +1882,6 @@
       "After 10-20 seconds, relax your arms while your partner gently pulls your wrists up to stretch your biceps. Be sure to let your partner know when the stretch is appropriate to prevent injury or overstretching."
     ],
     "category": "stretching",
-    "images": [
-      "Seated_Biceps/0.jpg",
-      "Seated_Biceps/1.jpg"
-    ],
     "id": "Seated_Biceps",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Biceps/0.jpg"
   },
@@ -2242,10 +1902,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Seated_Flat_Bench_Leg_Pull-In/0.jpg",
-      "Seated_Flat_Bench_Leg_Pull-In/1.jpg"
-    ],
     "id": "Seated_Flat_Bench_Leg_Pull-In",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Flat_Bench_Leg_Pull-In/0.jpg"
   },
@@ -2267,10 +1923,6 @@
       "Now, relax your muscles and allow your partner to gently increase the stretch on the shoulders and chest. Hold for 10 to 20 seconds."
     ],
     "category": "stretching",
-    "images": [
-      "Seated_Front_Deltoid/0.jpg",
-      "Seated_Front_Deltoid/1.jpg"
-    ],
     "id": "Seated_Front_Deltoid",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Front_Deltoid/0.jpg"
   },
@@ -2292,10 +1944,6 @@
       "Now relax your muscles as your partner increases the stretch by gently pushing your torso forward for 10-20 seconds."
     ],
     "category": "stretching",
-    "images": [
-      "Seated_Glute/0.jpg",
-      "Seated_Glute/1.jpg"
-    ],
     "id": "Seated_Glute",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Glute/0.jpg"
   },
@@ -2316,10 +1964,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Seated_Leg_Tucks/0.jpg",
-      "Seated_Leg_Tucks/1.jpg"
-    ],
     "id": "Seated_Leg_Tucks",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Seated_Leg_Tucks/0.jpg"
   },
@@ -2337,10 +1981,6 @@
     ],
     "instructions": [],
     "category": "strength",
-    "images": [
-      "Side_Bridge/0.jpg",
-      "Side_Bridge/1.jpg"
-    ],
     "id": "Side_Bridge",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Bridge/0.jpg"
   },
@@ -2356,10 +1996,6 @@
     "secondaryMuscles": [],
     "instructions": [],
     "category": "strength",
-    "images": [
-      "Side_Jackknife/0.jpg",
-      "Side_Jackknife/1.jpg"
-    ],
     "id": "Side_Jackknife",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Jackknife/0.jpg"
   },
@@ -2379,10 +2015,6 @@
       "Repeat this swinging motion 5-10 times, increasing the range of motion as you do so."
     ],
     "category": "stretching",
-    "images": [
-      "Side_Leg_Raises/0.jpg",
-      "Side_Leg_Raises/1.jpg"
-    ],
     "id": "Side_Leg_Raises",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Side_Leg_Raises/0.jpg"
   },
@@ -2406,10 +2038,6 @@
       "Descend slowly, and reverse direction be extending the arm to return to the starting position."
     ],
     "category": "strength",
-    "images": [
-      "Single-Arm_Push-Up/0.jpg",
-      "Single-Arm_Push-Up/1.jpg"
-    ],
     "id": "Single-Arm_Push-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single-Arm_Push-Up/0.jpg"
   },
@@ -2433,10 +2061,6 @@
       "Return the leg to a partially bent position underneath the hips and land. Your opposite leg should stay in relatively the same position throughout the drill."
     ],
     "category": "plyometrics",
-    "images": [
-      "Single_Leg_Butt_Kick/0.jpg",
-      "Single_Leg_Butt_Kick/1.jpg"
-    ],
     "id": "Single_Leg_Butt_Kick",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single_Leg_Butt_Kick/0.jpg"
   },
@@ -2459,10 +2083,6 @@
       "Extend as far as possible, pause and then return to the starting position."
     ],
     "category": "strength",
-    "images": [
-      "Single_Leg_Glute_Bridge/0.jpg",
-      "Single_Leg_Glute_Bridge/1.jpg"
-    ],
     "id": "Single_Leg_Glute_Bridge",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Single_Leg_Glute_Bridge/0.jpg"
   },
@@ -2484,10 +2104,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Sit-Up/0.jpg",
-      "Sit-Up/1.jpg"
-    ],
     "id": "Sit-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Sit-Up/0.jpg"
   },
@@ -2511,10 +2127,6 @@
       "Return this leg to the starting position and repeat on the opposite side."
     ],
     "category": "strength",
-    "images": [
-      "Spider_Crawl/0.jpg",
-      "Spider_Crawl/1.jpg"
-    ],
     "id": "Spider_Crawl",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Spider_Crawl/0.jpg"
   },
@@ -2540,10 +2152,6 @@
       "Absorb the impact by reverting back to the starting position."
     ],
     "category": "plyometrics",
-    "images": [
-      "Split_Jump/0.jpg",
-      "Split_Jump/1.jpg"
-    ],
     "id": "Split_Jump",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Split_Jump/0.jpg"
   },
@@ -2566,10 +2174,6 @@
       "Perform this movement slowly for a number of repetitions, and repeat on the other side."
     ],
     "category": "stretching",
-    "images": [
-      "Standing_Hip_Circles/0.jpg",
-      "Standing_Hip_Circles/1.jpg"
-    ],
     "id": "Standing_Hip_Circles",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Hip_Circles/0.jpg"
   },
@@ -2594,10 +2198,6 @@
       "Measure the distance from your landing point to the starting point and track results."
     ],
     "category": "plyometrics",
-    "images": [
-      "Standing_Long_Jump/0.jpg",
-      "Standing_Long_Jump/1.jpg"
-    ],
     "id": "Standing_Long_Jump",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Long_Jump/0.jpg"
   },
@@ -2618,10 +2218,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Standing_Towel_Triceps_Extension/0.jpg",
-      "Standing_Towel_Triceps_Extension/1.jpg"
-    ],
     "id": "Standing_Towel_Triceps_Extension",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Standing_Towel_Triceps_Extension/0.jpg"
   },
@@ -2646,10 +2242,6 @@
       "As you land, bring your limbs back in and absorb your impact through the legs."
     ],
     "category": "plyometrics",
-    "images": [
-      "Star_Jump/0.jpg",
-      "Star_Jump/1.jpg"
-    ],
     "id": "Star_Jump",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Star_Jump/0.jpg"
   },
@@ -2672,10 +2264,6 @@
       "Reverse this motion to step down off the box, and then repeat the sequence on the opposite leg."
     ],
     "category": "strength",
-    "images": [
-      "Step-up_with_Knee_Raise/0.jpg",
-      "Step-up_with_Knee_Raise/1.jpg"
-    ],
     "id": "Step-up_with_Knee_Raise",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Step-up_with_Knee_Raise/0.jpg"
   },
@@ -2697,10 +2285,6 @@
       "Repeat for the recommended amount of sets."
     ],
     "category": "stretching",
-    "images": [
-      "Stomach_Vacuum/0.jpg",
-      "Stomach_Vacuum/1.jpg"
-    ],
     "id": "Stomach_Vacuum",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Stomach_Vacuum/0.jpg"
   },
@@ -2724,10 +2308,6 @@
       "Repeat for the recommended amount of repetitions prescribed in your program."
     ],
     "category": "stretching",
-    "images": [
-      "Superman/0.jpg",
-      "Superman/1.jpg"
-    ],
     "id": "Superman",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Superman/0.jpg"
   },
@@ -2750,10 +2330,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "stretching",
-    "images": [
-      "Toe_Touchers/0.jpg",
-      "Toe_Touchers/1.jpg"
-    ],
     "id": "Toe_Touchers",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Toe_Touchers/0.jpg"
   },
@@ -2776,10 +2352,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Tuck_Crunch/0.jpg",
-      "Tuck_Crunch/1.jpg"
-    ],
     "id": "Tuck_Crunch",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Tuck_Crunch/0.jpg"
   },
@@ -2805,10 +2377,6 @@
       "Repeat for the prescribed number of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "V-Bar_Pullup/0.jpg",
-      "V-Bar_Pullup/1.jpg"
-    ],
     "id": "V-Bar_Pullup",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/V-Bar_Pullup/0.jpg"
   },
@@ -2834,10 +2402,6 @@
       "Repeat this motion for the prescribed amount of repetitions."
     ],
     "category": "strength",
-    "images": [
-      "Wide-Grip_Rear_Pull-Up/0.jpg",
-      "Wide-Grip_Rear_Pull-Up/1.jpg"
-    ],
     "id": "Wide-Grip_Rear_Pull-Up",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wide-Grip_Rear_Pull-Up/0.jpg"
   },
@@ -2858,10 +2422,6 @@
       "Continue alternating between legs until the set is complete."
     ],
     "category": "strength",
-    "images": [
-      "Wind_Sprints/0.jpg",
-      "Wind_Sprints/1.jpg"
-    ],
     "id": "Wind_Sprints",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wind_Sprints/0.jpg"
   },
@@ -2881,10 +2441,6 @@
       "Repeat for the recommended amount of repetitions."
     ],
     "category": "stretching",
-    "images": [
-      "Wrist_Circles/0.jpg",
-      "Wrist_Circles/1.jpg"
-    ],
     "id": "Wrist_Circles",
     "image": "https://raw.githubusercontent.com/yuhonas/free-exercise-db/main/exercises/Wrist_Circles/0.jpg"
   }

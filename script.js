@@ -105,6 +105,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const shuffled = filteredExercises.sort(() => 0.5 - Math.random());
         return shuffled.slice(0, count);
+    }
+
+    function formatTime(seconds) {
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    }
 
     function startWorkout() {
         setupView.classList.add('hidden');
@@ -270,6 +277,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const bodyPartData = getBodyPartData(history);
         const bodyPartSvg = createPieChart(bodyPartData);
         bodyPartChart.appendChild(bodyPartSvg);
+        progressCharts.appendChild(bodyPartChart);
 
     }
 
