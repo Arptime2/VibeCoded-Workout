@@ -2,11 +2,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const setupView = document.getElementById('setup-view');
     const workoutView = document.getElementById('workout-view');
     const progressView = document.getElementById('progress-view');
+    const allExercisesView = document.getElementById('all-exercises-view');
+    const workoutPreviewView = document.getElementById('workout-preview-view');
 
     const setupBtn = document.getElementById('setup-btn');
     const progressBtn = document.getElementById('progress-btn');
+    const allExercisesBtn = document.getElementById('all-exercises-btn');
     const workoutForm = document.getElementById('workout-form');
     const endWorkoutBtn = document.getElementById('end-workout-btn');
+    const startWorkoutBtn = document.getElementById('start-workout-btn');
 
     let exercises = [];
     let currentWorkout = [];
@@ -29,13 +33,26 @@ document.addEventListener('DOMContentLoaded', () => {
         setupView.classList.remove('hidden');
         workoutView.classList.add('hidden');
         progressView.classList.add('hidden');
+        allExercisesView.classList.add('hidden');
+        workoutPreviewView.classList.add('hidden');
     });
 
     progressBtn.addEventListener('click', () => {
         setupView.classList.add('hidden');
         workoutView.classList.add('hidden');
         progressView.classList.remove('hidden');
+        allExercisesView.classList.add('hidden');
+        workoutPreviewView.classList.add('hidden');
         displayProgress();
+    });
+
+    allExercisesBtn.addEventListener('click', () => {
+        setupView.classList.add('hidden');
+        workoutView.classList.add('hidden');
+        progressView.classList.add('hidden');
+        allExercisesView.classList.remove('hidden');
+        workoutPreviewView.classList.add('hidden');
+        displayAllExercises();
     });
 
     // Workout form submission
@@ -49,8 +66,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
         currentWorkout = generateWorkout(duration, difficulty, bodyParts);
         if (currentWorkout.length > 0) {
-            startWorkout();
+            displayWorkoutPreview();
         }
+    });
+
+    startWorkoutBtn.addEventListener('click', () => {
+        workoutPreviewView.classList.add('hidden');
+        startWorkout();
     });
 
     endWorkoutBtn.addEventListener('click', () => {
@@ -148,10 +170,31 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1000);
     }
 
-    function formatTime(seconds) {
-        const minutes = Math.floor(seconds / 60);
-        const remainingSeconds = seconds % 60;
-        return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
+    function displayWorkoutPreview() {
+        setupView.classList.add('hidden');
+        workoutPreviewView.classList.remove('hidden');
+        const previewList = document.getElementById('workout-preview-list');
+        previewList.innerHTML = '';
+        currentWorkout.forEach(exercise => {
+            const li = document.createElement('li');
+            li.textContent = exercise.name;
+            previewList.appendChild(li);
+        });
+    }
+
+    function displayAllExercises() {
+        const exerciseList = document.getElementById('exercise-list');
+        exerciseList.innerHTML = '';
+        exercises.forEach(exercise => {
+            const item = document.createElement('div');
+            item.className = 'exercise-item';
+            item.innerHTML = `
+                <h3>${exercise.name}</h3>
+                <img src="${exercise.image}" alt="${exercise.name}">
+                <p>${exercise.description}</p>
+            `;
+            exerciseList.appendChild(item);
+        });
     }
 
     function endWorkout() {
@@ -186,32 +229,99 @@ document.addEventListener('DOMContentLoaded', () => {
 
         progressCharts.innerHTML = ''; // Clear previous content
 
-        const workoutsByDate = {};
-        history.forEach(workout => {
-            const date = new Date(workout.date).toLocaleDateString();
-            if (!workoutsByDate[date]) {
-                workoutsByDate[date] = [];
-            }
-            workoutsByDate[date].push(workout);
+        // Duration Chart
+        const durationChart = document.createElement('div');
+        durationChart.className = 'chart';
+        durationChart.innerHTML = '<h3>Workout Duration (minutes)</h3>';
+        const durationSvg = createBarChart(history.map(w => w.duration));
+        durationChart.appendChild(durationSvg);
+        progressCharts.appendChild(durationChart);
+
+        // Body Part Chart
+        const bodyPartChart = document.createElement('div');
+        bodyPartChart.className = 'chart';
+        bodyPartChart.innerHTML = '<h3>Body Parts Trained</h3>';
+        const bodyPartData = getBodyPartData(history);
+        const bodyPartSvg = createPieChart(bodyPartData);
+        bodyPartChart.appendChild(bodyPartChart);
+
+    }
+
+    function createBarChart(data) {
+        const svgNS = "http://www.w3.org/2000/svg";
+        const svg = document.createElementNS(svgNS, "svg");
+        const barWidth = 30;
+        const barMargin = 10;
+        const chartHeight = 200;
+        const maxValue = Math.max(...data);
+
+        svg.setAttribute('width', data.length * (barWidth + barMargin));
+        svg.setAttribute('height', chartHeight);
+
+        data.forEach((value, index) => {
+            const barHeight = (value / maxValue) * chartHeight;
+            const rect = document.createElementNS(svgNS, 'rect');
+            rect.setAttribute('x', index * (barWidth + barMargin));
+            rect.setAttribute('y', chartHeight - barHeight);
+            rect.setAttribute('width', barWidth);
+            rect.setAttribute('height', barHeight);
+            rect.setAttribute('fill', '#007aff');
+            svg.appendChild(rect);
         });
 
-        for (const date in workoutsByDate) {
-            const dayCard = document.createElement('div');
-            dayCard.className = 'chart';
-            
-            const title = document.createElement('h3');
-            title.textContent = date;
-            dayCard.appendChild(title);
+        return svg;
+    }
 
-            const workoutList = document.createElement('ul');
-            workoutsByDate[date].forEach(workout => {
-                const listItem = document.createElement('li');
-                listItem.textContent = `- ${workout.duration} minutes: ${workout.exercises.join(', ')}`;
-                workoutList.appendChild(listItem);
+    function getBodyPartData(history) {
+        const bodyPartCounts = {};
+        history.forEach(workout => {
+            workout.exercises.forEach(exerciseName => {
+                const exercise = exercises.find(ex => ex.name === exerciseName);
+                if (exercise) {
+                    exercise.bodyPart.forEach(bp => {
+                        bodyPartCounts[bp] = (bodyPartCounts[bp] || 0) + 1;
+                    });
+                }
             });
+        });
+        return bodyPartCounts;
+    }
 
-            dayCard.appendChild(workoutList);
-            progressCharts.appendChild(dayCard);
+    function createPieChart(data) {
+        const svgNS = "http://www.w3.org/2000/svg";
+        const svg = document.createElementNS(svgNS, "svg");
+        const size = 200;
+        const centerX = size / 2;
+        const centerY = size / 2;
+        const radius = size / 2;
+
+        svg.setAttribute('width', size);
+        svg.setAttribute('height', size);
+
+        let total = 0;
+        for (const key in data) {
+            total += data[key];
         }
+
+        let startAngle = 0;
+        const colors = ['#34c759', '#ff9500', '#ff3b30', '#5856d6', '#007aff', '#ff2d55'];
+        let colorIndex = 0;
+
+        for (const key in data) {
+            const value = data[key];
+            const sliceAngle = (value / total) * 360;
+            const endAngle = startAngle + sliceAngle;
+
+            const path = document.createElementNS(svgNS, 'path');
+            const d = `M ${centerX},${centerY} L ${centerX + radius * Math.cos(startAngle * Math.PI / 180)},${centerY + radius * Math.sin(startAngle * Math.PI / 180)} A ${radius},${radius} 0 ${sliceAngle > 180 ? 1 : 0},1 ${centerX + radius * Math.cos(endAngle * Math.PI / 180)},${centerY + radius * Math.sin(endAngle * Math.PI / 180)} Z`;
+            path.setAttribute('d', d);
+            path.setAttribute('fill', colors[colorIndex % colors.length]);
+            svg.appendChild(path);
+
+            startAngle = endAngle;
+            colorIndex++;
+        }
+
+        return svg;
     }
 });
