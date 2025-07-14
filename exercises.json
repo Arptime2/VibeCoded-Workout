@@ -1,0 +1,84 @@
+{
+    "exercises": [
+        {
+            "name": "Jumping Jacks",
+            "description": "A full-body exercise that you can do anywhere. Stand with your feet together and your hands at your sides. In one motion, jump your feet out to the side and raise your arms above your head. Immediately reverse that motion by jumping back to the starting position.",
+            "image": "images/jumping_jacks.png",
+            "bodyPart": ["full body"],
+            "difficulty": "easy",
+            "variations": ["Half Jacks", "Squat Jacks"]
+        },
+        {
+            "name": "Push-ups",
+            "description": "A classic bodyweight exercise to strengthen your chest, shoulders, and triceps. Start in a plank position with your hands slightly wider than your shoulders. Lower your body until your chest nearly touches the floor, then push back up to the starting position.",
+            "image": "images/push_ups.png",
+            "bodyPart": ["upper body", "core"],
+            "difficulty": "medium",
+            "variations": ["Knee Push-ups", "Incline Push-ups"]
+        },
+        {
+            "name": "Squats",
+            "description": "A fundamental lower-body exercise that targets your quadriceps, hamstrings, and glutes. Stand with your feet shoulder-width apart. Lower your hips as if you were sitting in a chair, keeping your chest up and your back straight. Return to the starting position.",
+            "image": "images/squats.png",
+            "bodyPart": ["lower body"],
+            "difficulty": "easy",
+            "variations": ["Pulse Squats", "Jump Squats"]
+        },
+        {
+            "name": "Plank",
+            "description": "An isometric core strength exercise that involves maintaining a position similar to a push-up for the maximum possible time. Keep your back straight and your core engaged.",
+            "image": "images/plank.png",
+            "bodyPart": ["core"],
+            "difficulty": "easy",
+            "variations": ["Side Plank", "Plank with Shoulder Taps"]
+        },
+        {
+            "name": "High Knees",
+            "description": "A cardio-intensive exercise that involves running in place while lifting your knees as high as possible. It strengthens the muscles in your legs, hips, and core.",
+            "image": "images/high_knees.png",
+            "bodyPart": ["full body", "lower body"],
+            "difficulty": "easy",
+            "variations": ["Slow Motion High Knees", "High Knee Skips"]
+        },
+        {
+            "name": "Lunges",
+            "description": "A great exercise for building strength in your legs and glutes. Step forward with one leg and lower your hips until both knees are bent at a 90-degree angle. Push back to the starting position and repeat with the other leg.",
+            "image": "images/lunges.png",
+            "bodyPart": ["lower body"],
+            "difficulty": "medium",
+            "variations": ["Reverse Lunges", "Side Lunges"]
+        },
+        {
+            "name": "Burpees",
+            "description": "A full-body exercise that combines a squat, a push-up, and a jump. It's a great way to build strength and cardiovascular endurance.",
+            "image": "images/burpees.png",
+            "bodyPart": ["full body"],
+            "difficulty": "hard",
+            "variations": ["Half Burpees (No Push-up)", "Burpee with Tuck Jump"]
+        },
+        {
+            "name": "Crunches",
+            "description": "A classic core exercise that targets the abdominal muscles. Lie on your back with your knees bent and your feet flat on the floor. Place your hands behind your head, and lift your upper back off the floor.",
+            "image": "images/crunches.png",
+            "bodyPart": ["core"],
+            "difficulty": "easy",
+            "variations": ["Bicycle Crunches", "Reverse Crunches"]
+        },
+        {
+            "name": "Mountain Climbers",
+            "description": "A dynamic, full-body exercise that gets your heart rate up. Start in a plank position and alternate bringing your knees to your chest as if you were running.",
+            "image": "images/mountain_climbers.png",
+            "bodyPart": ["full body", "core"],
+            "difficulty": "medium",
+            "variations": ["Slow Mountain Climbers", "Cross-Body Mountain Climbers"]
+        },
+        {
+            "name": "Glute Bridges",
+            "description": "A great exercise for strengthening your glutes and hamstrings. Lie on your back with your knees bent and your feet flat on the floor. Lift your hips off the floor until your body forms a straight line from your shoulders to your knees.",
+            "image": "images/glute_bridges.png",
+            "bodyPart": ["lower body", "core"],
+            "difficulty": "easy",
+            "variations": ["Single-Leg Glute Bridge", "Glute Bridge with March"]
+        }
+    ]
+}

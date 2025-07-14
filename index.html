@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VibeCoded Workout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>VibeCoded Workout</h1>
+            <nav>
+                <button id="setup-btn">Workout</button>
+                <button id="progress-btn">Progress</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="setup-view">
+                <h2>Create Your Workout</h2>
+                <form id="workout-form">
+                    <div class="form-group">
+                        <label for="duration">Duration (minutes):</label>
+                        <input type="number" id="duration" min="10" max="60" value="30" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="difficulty">Difficulty:</label>
+                        <select id="difficulty" required>
+                            <option value="easy">Easy</option>
+                            <option value="medium">Medium</option>
+                            <option value="hard">Hard</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="body-parts">Body Parts (comma-separated):</label>
+                        <input type="text" id="body-parts" placeholder="e.g., full body, upper body, core" value="full body" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="rest-duration">Rest between exercises (seconds):</label>
+                        <input type="number" id="rest-duration" min="5" max="60" value="15" required>
+                    </div>
+                    <button type="submit">Generate Workout</button>
+                </form>
+            </section>
+
+            <section id="workout-view" class="hidden">
+                <div id="timer">00:00</div>
+                <div id="exercise-info">
+                    <h2 id="exercise-name"></h2>
+                    <img id="exercise-image" src="" alt="Exercise Image">
+                    <p id="exercise-description"></p>
+                </div>
+                <div id="next-exercise">
+                    <p>Next up: <span id="next-exercise-name"></span></p>
+                </div>
+                <button id="end-workout-btn">End Workout</button>
+            </section>
+
+            <section id="progress-view" class="hidden">
+                <h2>Your Progress</h2>
+                <div id="progress-charts"></div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
