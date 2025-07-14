@@ -127,6 +127,12 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
+        // Clear previous phase title
+        const existingPhaseTitle = document.querySelector('#workout-view > h2');
+        if (existingPhaseTitle) {
+            existingPhaseTitle.remove();
+        }
+
         const phaseTitle = document.createElement('h2');
         if (currentExerciseIndex < 5) {
             phaseTitle.textContent = 'Warm-up';
@@ -140,13 +146,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const exercise = currentWorkout[currentExerciseIndex];
         document.getElementById('exercise-name').textContent = exercise.name;
         document.getElementById('exercise-image').src = exercise.image;
-        document.getElementById('exercise-description').textContent = exercise.description;
+        document.getElementById('exercise-description').textContent = exercise.instructions.join('\n');
 
         const nextExercise = currentWorkout[currentExerciseIndex + 1];
         if (nextExercise) {
             document.getElementById('next-exercise-name').textContent = nextExercise.name;
         } else {
-            document.getElementById('next-exercise-name').textContent = 'Cool-down';
+            document.getElementById('next-exercise-name').textContent = 'Workout Complete!';
         }
 
         const timerDisplay = document.getElementById('timer');
@@ -187,26 +193,35 @@ document.addEventListener('DOMContentLoaded', () => {
         setupView.classList.add('hidden');
         workoutPreviewView.classList.remove('hidden');
         const previewList = document.getElementById('workout-preview-list');
-        previewList.innerHTML = '<h3>Warm-up</h3>';
+        previewList.innerHTML = ''; // Clear previous content
+
+        const warmUpSection = document.createElement('div');
+        warmUpSection.innerHTML = '<h3>Warm-up</h3>';
         currentWorkout.slice(0, 5).forEach(exercise => {
             const li = document.createElement('li');
             li.textContent = exercise.name;
-            previewList.appendChild(li);
+            warmUpSection.appendChild(li);
         });
+        previewList.appendChild(warmUpSection);
 
-        previewList.innerHTML += '<h3>Main Workout</h3>';
+
+        const mainWorkoutSection = document.createElement('div');
+        mainWorkoutSection.innerHTML = '<h3>Main Workout</h3>';
         currentWorkout.slice(5, currentWorkout.length - 5).forEach(exercise => {
             const li = document.createElement('li');
             li.textContent = exercise.name;
-            previewList.appendChild(li);
+            mainWorkoutSection.appendChild(li);
         });
+        previewList.appendChild(mainWorkoutSection);
 
-        previewList.innerHTML += '<h3>Cool-down</h3>';
+        const coolDownSection = document.createElement('div');
+        coolDownSection.innerHTML = '<h3>Cool-down</h3>';
         currentWorkout.slice(currentWorkout.length - 5).forEach(exercise => {
             const li = document.createElement('li');
             li.textContent = exercise.name;
-            previewList.appendChild(li);
+            coolDownSection.appendChild(li);
         });
+        previewList.appendChild(coolDownSection);
     }
 
     function displayAllExercises() {
@@ -217,24 +232,23 @@ document.addEventListener('DOMContentLoaded', () => {
             item.className = 'exercise-item';
             item.innerHTML = `
                 <h3>${exercise.name}</h3>
-                <img src="${exercise.image}" alt="${exercise.name}">
-                <p>${exercise.description}</p>
+                <img src="${exercise.image}" alt="${exercise.name}" onerror="this.style.display='none'">
+                <p>${exercise.instructions.join('\n')}</p>
             `;
             exerciseList.appendChild(item);
         });
     }
 
-    function formatTime(seconds) {
-        const minutes = Math.floor(seconds / 60);
-        const remainingSeconds = seconds % 60;
-        return `${minutes.toString().padStart(2, '0')}:${remainingSeconds.toString().padStart(2, '0')}`;
-    }
-
     function endWorkout() {
         clearInterval(exerciseTimer);
         clearInterval(restTimer);
+        // Clear phase title
+        const existingPhaseTitle = document.querySelector('#workout-view > h2');
+        if (existingPhaseTitle) {
+            existingPhaseTitle.remove();
+        }
         workoutView.classList.add('hidden');
-        setupView.classList.remove('hidden');
+        setActiveView(setupBtn);
         saveWorkout();
         alert('Workout Complete!');
     }
@@ -263,22 +277,22 @@ document.addEventListener('DOMContentLoaded', () => {
         progressCharts.innerHTML = ''; // Clear previous content
 
         // Duration Chart
-        const durationChart = document.createElement('div');
-        durationChart.className = 'chart';
-        durationChart.innerHTML = '<h3>Workout Duration (minutes)</h3>';
-        const durationSvg = createBarChart(history.map(w => w.duration));
-        durationChart.appendChild(durationSvg);
-        progressCharts.appendChild(durationChart);
+        const durationChartContainer = document.createElement('div');
+        durationChartContainer.className = 'chart';
+        durationChartContainer.innerHTML = '<h3>Workout Duration (minutes)</h3>';
+        const durationData = history.map(w => w.duration);
+        const durationSvg = createBarChart(durationData);
+        durationChartContainer.appendChild(durationSvg);
+        progressCharts.appendChild(durationChartContainer);
 
         // Body Part Chart
-        const bodyPartChart = document.createElement('div');
-        bodyPartChart.className = 'chart';
-        bodyPartChart.innerHTML = '<h3>Body Parts Trained</h3>';
+        const bodyPartChartContainer = document.createElement('div');
+        bodyPartChartContainer.className = 'chart';
+        bodyPartChartContainer.innerHTML = '<h3>Body Parts Trained</h3>';
         const bodyPartData = getBodyPartData(history);
         const bodyPartSvg = createPieChart(bodyPartData);
-        bodyPartChart.appendChild(bodyPartSvg);
-        progressCharts.appendChild(bodyPartChart);
-
+        bodyPartChartContainer.appendChild(bodyPartSvg);
+        progressCharts.appendChild(bodyPartChartContainer);
     }
 
     function createBarChart(data) {
